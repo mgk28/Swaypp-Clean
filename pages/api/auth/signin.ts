@@ -1,3 +1,6 @@
+rm pages/api/auth/signin.ts
+
+cat > pages/api/auth/signin.ts << 'EOF'
 import { createClient } from '@supabase/supabase-js'
 
 const supabase = createClient(
@@ -27,3 +30,4 @@ export default async function handler(req: any, res: any) {
     return res.status(500).json({ error: 'Server error' })
   }
 }
+EOF
