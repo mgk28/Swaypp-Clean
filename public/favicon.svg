@@ -1,0 +1,17 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="swayppGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00a693;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="32" height="32" rx="8" fill="url(#swayppGradient)" />
+  
+  <g transform="translate(6, 6)">
+    <rect x="0" y="0" width="20" height="5" rx="2.5" fill="white" opacity="0.95"/>
+    <path d="M0 8 Q0 6 2 6 L14 6 Q20 6 20 12 Q20 14 18 14 L6 14 Q2 14 2 18 Q2 20 6 20 L18 20 Q20 20 20 18" 
+          stroke="white" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.95"/>
+    <rect x="0" y="15" width="20" height="5" rx="2.5" fill="white" opacity="0.95"/>
+  </g>
+</svg>
